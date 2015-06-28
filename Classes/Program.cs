@@ -8,7 +8,7 @@ namespace Classes
 {
     class Employee
     {
-        // key concept in OOP (encapsulation or "data hiding") indicate this data should not be public, access should be mediated through a property
+        // key concept in OOP (encapsulation or data hiding) indicate this data should not be public, access should be mediated through a property
 
         //private int age; // common in C# for the private variable to be lowercase and the public to begin with Uppercase
         //public int Age

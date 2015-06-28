@@ -20,7 +20,7 @@ namespace Classes2
             Salary += Salary * bonusPercent;
         }
 
-        // constructor
+        // constructor - to create an instance of a class
         public Employee(int age, string name, double salary, DateTime startDate, string phoneNumber)
         {
             Age = age;
@@ -30,6 +30,7 @@ namespace Classes2
             PhoneNumber = phoneNumber;
         }
 
+        // default constructor - one that take no arguments, if no other constuctors have been created you will receive this by default
         public Employee() // this is for empty initialization
         {
         }
