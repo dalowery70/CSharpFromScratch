@@ -25,9 +25,11 @@ namespace Classes
     {
         static void Main(string[] args)
         {
+            // Method 1 using assignment
             Employee Employee = new Employee(); // creates an instance of Employee
+            Employee.Name = "Dave"; //sets name
             Employee.Age = 45; // sets age
-            Console.WriteLine("Employee age is {0}", Employee.Age); //display age
+            Console.WriteLine("{0}'s age is {1}", Employee.Name, Employee.Age); //display
         }
     }
 }
