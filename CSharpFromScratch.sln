@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks.csproj", "{ACBCC703-A9B8-4DB9-824E-953F0F848673}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooleanValues", "BooleanValues\BooleanValues.csproj", "{4086A6AF-5E3C-41BE-AB80-205D184D3100}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{ACBCC703-A9B8-4DB9-824E-953F0F848673}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACBCC703-A9B8-4DB9-824E-953F0F848673}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACBCC703-A9B8-4DB9-824E-953F0F848673}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4086A6AF-5E3C-41BE-AB80-205D184D3100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4086A6AF-5E3C-41BE-AB80-205D184D3100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4086A6AF-5E3C-41BE-AB80-205D184D3100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4086A6AF-5E3C-41BE-AB80-205D184D3100}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
