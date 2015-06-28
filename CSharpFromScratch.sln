@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switch", "Switch\Switch.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerations", "Enumerations\Enumerations.csproj", "{DF9CBC31-CB34-4C50-B0E2-1C0D92E5205E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{301F56B3-A093-446A-B183-E928E2915271}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{DF9CBC31-CB34-4C50-B0E2-1C0D92E5205E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF9CBC31-CB34-4C50-B0E2-1C0D92E5205E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF9CBC31-CB34-4C50-B0E2-1C0D92E5205E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301F56B3-A093-446A-B183-E928E2915271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301F56B3-A093-446A-B183-E928E2915271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301F56B3-A093-446A-B183-E928E2915271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301F56B3-A093-446A-B183-E928E2915271}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
