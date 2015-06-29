@@ -10,6 +10,17 @@ namespace OOP
         {
             Console.WriteLine("Purchasing {0}", Name);
         }
+
+        // method that returns an Item
+        public static Item GetItem() // static means you dont need an instance to call it
+        {
+            var newItem = new Item()
+            {
+                ID = 101,
+                Name = "MyItem"
+            };
+            return newItem;
+        }
     }
 
     // Normally this would be one class per file - shown this way for simplicity

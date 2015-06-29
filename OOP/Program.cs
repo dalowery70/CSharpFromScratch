@@ -14,6 +14,8 @@ namespace OOP
             var myItem = newWarehouse.FindAndReturnItem(101);
             Console.WriteLine("My new item is {0}", myItem.Name);
 
+
+            // Inheritance Example
             var myComputer = new Computer();
             myComputer.ID = 102;
 
@@ -30,6 +32,10 @@ namespace OOP
             mySoftware.ID = 101;
             mySoftware.ISBN = "1234";
             mySoftware.Purchase();
+
+            // Static Method
+            Item newItem = Item.GetItem();
+            Console.WriteLine("New item ID = {0}, name = {1}", newItem.ID, newItem.Name);
         }
     }
 }
